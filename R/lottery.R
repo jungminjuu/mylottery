@@ -4,8 +4,8 @@
 #'
 #' @examples
 #'
-#' mylottery(c(2,14,28,33,19,43,23))
-mylottery<-function(num_vec){
+#' my_lottery(c(2,14,28,33,19,43,23))
+my_lottery<-function(num_vec){
   win<-sample(1:45,7)
   n <- 0
   bonus <- 0 # Bonus numbers are not included in the number of matches,
